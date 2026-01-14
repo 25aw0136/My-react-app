@@ -1,6 +1,6 @@
 
 import Weather from './page/weather'
-import './App.css'
+import './page/Weather.css'
 
 
 
