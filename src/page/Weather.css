@@ -1,4 +1,4 @@
-/* 整体背景（iOS 风格渐变） */
+
 /* html, body {
   margin: 0;
   padding: 0;
@@ -16,15 +16,15 @@ body {
   padding: 40px 20px;
   background: linear-gradient(
     180deg,
-    #cfe8ff 0%,
-    #e9f2ff 40%,
+    #4ea9ff 0%,
+    #93c0ff 40%,
     #f7f9ff 100%
   );
 }
 
 /* 标题 */
 .title {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 600;
 
   margin-bottom: 24px;
@@ -42,8 +42,8 @@ body {
   padding: 8px 18px;
   border-radius: 999px;
   border: none;
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
   font-size: 14px;
   cursor: pointer;
@@ -68,7 +68,7 @@ body {
   background: rgba(255, 255, 255, 0.259);
   backdrop-filter: blur(20px);
   box-shadow:
-    0 10px 10px rgba(0, 0, 0, 0.08);
+    0 10px 10px rgba(0, 0, 0, 0.04);
   text-align: center;
 }
 
