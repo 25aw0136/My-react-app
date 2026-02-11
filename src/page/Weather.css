@@ -1,25 +1,17 @@
-
-/* html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-} */
-
 body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
+
 .weather-app {
   width: 370px;
   min-height: 100vh;
   padding: 40px 20px;
-  background: linear-gradient(
-    180deg,
-    #4ea9ff 0%,
-    #93c0ff 40%,
-    #f7f9ff 100%
-  );
+  background: linear-gradient(180deg,
+      #4ea9ff 0%,
+      #93c0ff 40%,
+      #f7f9ff 100%);
 }
 
 
@@ -90,4 +82,24 @@ body {
 .weather-text {
   font-size: 20px;
   line-height: 1.1;
+}
+
+.weather-app.night .title {
+  color: #e6ecff;
+}
+
+.weather-app.night .weather-card {
+  background: rgba(20, 30, 40, 0.6);
+  color: #f0f3ff;
+}
+
+.weather-app.night .status {
+  color: #ccc;
+}
+
+.weather-app.night {
+  background: linear-gradient(180deg,
+      #0b1026 0%,
+      #1b2a4a 45%,
+      #2f3c5f 100%);
 }
